@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-07T04:59:57.592Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="aTIprAK4T9tlHjHadIOJ" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-07T05:01:28.231Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="4W4xRMS2v1wzAMZIOE4Y" version="22.0.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="954" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -39,6 +39,9 @@
         <mxCell id="vkObAN81ggtAgs_ulDrf-4" value="Initialize pins PF1 PF2&amp;nbsp; as outputs, PF4 as input&lt;br style=&quot;box-sizing: border-box; font-family: Lato, sans-serif; font-size: medium; text-align: start; background-color: rgb(242, 242, 242);&quot; class=&quot;textLayer--absolute&quot; role=&quot;presentation&quot;&gt;&lt;span style=&quot;box-sizing: border-box; color: transparent; position: absolute; cursor: text; transform-origin: 0% 0%; display: block; float: left; margin-bottom: -918px; margin-right: -918px; text-align: start; background-color: rgb(242, 242, 242); left: 143.316px; top: 656.498px; font-size: 16.56px; font-family: sans-serif; transform: scaleX(0.907458);&quot; class=&quot;textLayer--absolute&quot; dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;PF4 only as an input&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="200" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="vkObAN81ggtAgs_ulDrf-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vkObAN81ggtAgs_ulDrf-6" target="WIyWlLk6GJQsqaUBKTNV-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vkObAN81ggtAgs_ulDrf-6" value="enable pull up resistors" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="280" width="120" height="30" as="geometry" />
         </mxCell>
@@ -69,8 +72,19 @@
         <mxCell id="vkObAN81ggtAgs_ulDrf-11" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="170" y="440" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="vkObAN81ggtAgs_ulDrf-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vkObAN81ggtAgs_ulDrf-13" target="vkObAN81ggtAgs_ulDrf-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="vkObAN81ggtAgs_ulDrf-13" value="is switch released?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="380" y="480" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vkObAN81ggtAgs_ulDrf-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vkObAN81ggtAgs_ulDrf-17" target="WIyWlLk6GJQsqaUBKTNV-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vkObAN81ggtAgs_ulDrf-17" value="turn on blue LED" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="500" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
